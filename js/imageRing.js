@@ -359,27 +359,27 @@ export class FlowerRingSystem {
 
     // 1) Load 1 gambar dulu agar ring & sprite tercipta
     textureLoader.load(
-        'assets/images/b1.png',
+        'assets/images/b1.webp',
         (texture) => {
             this.processAndCreateFlowers(texture);
 
             // 2) Setelah sprite ada, preload banyak gambar lalu randomize material
             this.preloadTextures([
-                'assets/images/b1.png',
-                'assets/images/b2.png',
-                'assets/images/b3.png',
-                'assets/images/b4.png',
-                'assets/images/b5.png',
-                'assets/images/b6.png',
-                'assets/images/b7.png',
-                'assets/images/b8.png',
-                'assets/images/b9.png',
-                'assets/images/b10.png',
-                'assets/images/b11.png',
-                'assets/images/b12.png',
-                'assets/images/b13.png',
-                'assets/images/b14.png',
-                'assets/images/b15.png'
+                'assets/images/b1.webp',
+                'assets/images/b2.webp',
+                'assets/images/b3.webp',
+                'assets/images/b4.webp',
+                'assets/images/b5.webp',
+                'assets/images/b6.webp',
+                'assets/images/b7.webp',
+                'assets/images/b8.webp',
+                'assets/images/b9.webp',
+                'assets/images/b10.webp',
+                'assets/images/b11.webp',
+                'assets/images/b12.webp',
+                'assets/images/b13.webp',
+                'assets/images/b14.webp',
+                'assets/images/b15.webp'
                 // tambahkan path lain di sini, pastikan file-nya ada
             ]);
         },
